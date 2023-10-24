@@ -1,0 +1,17 @@
+<div class="banner">
+    Apply for chairing - deadline 01/12/2023
+</div>
+<header>
+    <nav id="nav">
+        <a href="/" class="logo">
+            <img src="/img/nottsmun.png">
+        </a>
+        {{ range .Site.Menus.main }}
+        {{ if eq .Name $.Name }}
+            <a href="{{ .URL }}" class="current">{{ .Name }}</a>
+        {{ else }}
+            <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+        {{ end }}
+    </nav>
+</header>

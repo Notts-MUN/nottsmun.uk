@@ -1,0 +1,40 @@
+baseURL = 'http://nottsmun.org/'
+languageCode = 'en-gb'
+title = 'NOTTSMUN 2024'
+theme = 'nottsmun'
+
+[menu]
+    [[menu.main]]
+        name = "NOTTSMUN 2024"
+        url = "/"
+        weight = 1
+    
+    [[menu.main]]
+        name = "About"
+        url = "/about"
+        weight = 2
+    
+    [[menu.main]]
+        name = "Delegate Resources"
+        url = "/resources"
+        weight = 3
+    
+    [[menu.main]]
+        name = "Join Us"
+        url = "/join-us"
+        weight = 4
+    
+    [[menu.main]]
+        name = "Secretariat"
+        url = "/secretariat"
+        weight = 5
+    
+    [[menu.main]]
+        name = "Contact"
+        url = "/contact"
+        weight = 6
+    
+    [[menu.main]]
+        name = "Gallery"
+        url = "/gallery"
+        weight = 7

@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    font-size: 1rem;
+    overflow-x: hidden;
+}
+
+div.background {
+    transform: translateY(-40px);
+    color: rgb(235, 235, 235);
+    font-size: 2rem;
+    width: 100%;
+    aspect-ratio: 1.33;
+    max-height: 750px;
+    background-image: url("/img/banner.jpg");
+    background-blend-mode: multiply;
+    background-color: rgb(152, 141, 151);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+div.background > * {
+    text-shadow: 0px 0px 15px rgba(0,0,0,255);
+}
+
+div.background h1 {
+    font-weight: normal;
+    margin: 0;
+    letter-spacing: 3px;
+    color: white;
+}
+
+div.background h2 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin: 0;
+    color: rgba(235, 235, 235, 0.9);
+}
+
+div.background img.logo {
+    margin-bottom: 40px;
+    width: 180px;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 255));
+}
+
+div.banner {
+    width: 100vw;
+    font-size: 0.75rem;
+    color: rgb(235, 235, 235);
+    background-color: rgb(43, 50, 64);
+    text-align: center;
+    padding: 8px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+nav {
+    width: 100vw;
+    font-size: 0.8rem;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+nav a.current {
+    color: rgb(63, 87, 131);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+nav a {
+    color: rgb(43, 50, 64);
+}
+
+nav a.logo {
+    position: absolute;
+    left: 0;
+}
+
+nav img {
+    height: 50px;
+}
+
+html[page="NOTTSMUN 2024"] nav a {
+    color: rgb(235, 235, 235);
+}
+
+html[page="NOTTSMUN 2024"] nav a.logo {
+    display: none;
+}
+
+html[page]:not([page="NOTTSMUN 2024"]) nav {
+    height: 100px;
+    width: 800px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+article, footer > div {
+    width: 800px;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+article {
+    font-size: 1.4rem;
+}
+
+article.single {
+    margin-top: 15px;
+}
+
+article p {
+    margin-top: 0;
+}
+
+article h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: rgb(43, 50, 64);
+}
+
+article img {
+    width: 100%;
+}
+
+footer {
+    font-size: 0.6rem;
+    padding: 30px 0;
+    margin-top: 30px;
+    background-color: rgb(225, 241, 255);
+}
+
+footer p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+footer p, footer a {
+    color: rgb(100, 100, 100);
+}
+
+footer img.logo {
+    float: left;
+    width: 50px;
+    margin-right: 20px;
+}
+
+div.bios {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.bio {
+    width: 250px;
+}
+
+div.bio img {
+    width: 250px;
+    filter: hue-rotate(90deg);
+}
+
+div.bio h2.title {
+    font-size: 1.5rem;
+    color: rgb(107, 146, 224);
+    margin-top: 5px;
+}
+
+div.bio p {
+    font-size: 1rem;
+}
