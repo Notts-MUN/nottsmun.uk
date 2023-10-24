@@ -1,4 +1,4 @@
-baseURL = 'http://zacgarby.co.uk/nottsmun.uk/'
+baseURL = 'https://nottsmun.uk/'
 languageCode = 'en-gb'
 title = 'NOTTSMUN 2024'
 theme = 'nottsmun'
