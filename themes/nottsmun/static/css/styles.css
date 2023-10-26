@@ -3,7 +3,6 @@
 }
 
 html, body {
-    width: 100vw;
     margin: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
@@ -56,7 +55,6 @@ div.background img.logo {
 }
 
 div.banner {
-    width: 100vw;
     font-size: 0.75rem;
     color: rgb(235, 235, 235);
     background-color: rgb(43, 50, 64);
@@ -74,7 +72,7 @@ nav {
     height: 80px;
     padding: 8px;
     display: flex;
-    gap: 15px;
+    gap: 8px 15px;
     justify-content: center;
     width: 800px;
     margin: auto;
@@ -115,10 +113,12 @@ a:hover {
 
 article, footer > div {
     width: 800px;
+    max-width: 100%;
     display: block;
     margin: auto;
     left: 0;
     right: 0;
+    padding: 0 25px;
 }
 
 article {

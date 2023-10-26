@@ -1,0 +1,39 @@
+@media screen and (max-width: 800px) {
+    div.background {
+        transform: translateY(-150px);
+    }
+
+    nav {
+        flex-wrap: wrap;
+        width: 70%;
+        height: 150px;
+        padding-top: 25px;
+    }
+
+    nav a[class=logo] {
+        width: 100%;
+        text-align: center;
+    }
+
+    div.background {
+        margin-bottom: -130px;
+    }
+
+    div.background h1 {
+        font-size: 9vw;
+    }
+
+    div.background h2 {
+        font-size: 5vw;
+    }
+
+    div.committees-list {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px 50px;
+    }
+
+    div.committees-list a.committee {
+        width: 100px;
+    }
+}
