@@ -12,7 +12,7 @@ html, body {
 }
 
 div.background {
-    transform: translateY(-40px);
+    transform: translateY(-80px);
     color: rgb(235, 235, 235);
     font-size: 2rem;
     width: 100%;
@@ -67,16 +67,20 @@ div.banner {
 }
 
 nav {
-    width: 100vw;
     font-size: 0.8rem;
     position: relative;
     z-index: 1;
     text-transform: uppercase;
-    height: 40px;
+    height: 80px;
     padding: 8px;
     display: flex;
     gap: 15px;
     justify-content: center;
+    width: 800px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    align-items: center;
 }
 
 nav a.current {
@@ -85,39 +89,23 @@ nav a.current {
     text-decoration-thickness: 2px;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(63, 87, 131);
+}
+
 nav a {
     color: rgb(43, 50, 64);
 }
 
-nav a.logo {
-    position: absolute;
-    left: 0;
-}
-
 nav img {
     height: 50px;
+    padding-right: 20px;
 }
 
 html[page="NOTTSMUN 2024"] nav a {
     color: rgb(235, 235, 235);
-}
-
-html[page="NOTTSMUN 2024"] nav a.logo {
-    display: none;
-}
-
-html[page]:not([page="NOTTSMUN 2024"]) nav {
-    height: 100px;
-    width: 800px;
-    margin: auto;
-    left: 0;
-    right: 0;
-    align-items: center;
-}
-
-a {
-    text-decoration: none;
-    font-weight: bold;
 }
 
 a:hover {
@@ -143,6 +131,7 @@ article.single {
 
 article p {
     margin-top: 0;
+    line-height: 1.4em;
 }
 
 article h1, h2, h3 {
@@ -173,7 +162,7 @@ footer p, footer a {
 
 footer img.logo {
     float: left;
-    width: 50px;
+    width: 55px;
     margin-right: 20px;
 }
 
@@ -201,4 +190,98 @@ div.bio h2.title {
 
 div.bio p {
     font-size: 1rem;
+}
+
+form {
+    width: 100%;
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: 80px auto;
+    gap: 10px 15px;
+    align-items: center;
+}
+
+form label {
+    grid-column: 1;
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+form label[for=body] {
+    align-self: baseline;
+    padding-top: 10px;
+}
+
+form input, form textarea {
+    grid-column: 2;
+    border: 1px solid rgb(43, 50, 64);
+    font-size: 1.1rem;
+    padding: 10px;
+    width: 100%;
+}
+
+form input[type=submit] {
+    padding: 10px;
+    background-color: rgb(197, 226, 252);
+    border-width: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form input[type=submit]:hover {
+    background-color: rgb(164, 197, 226);
+}
+
+div.timeline {
+    margin-top: 20px;
+    margin-left: 50px;
+    border-left: 4px solid rgb(43, 50, 64);
+}
+
+div.timeline div.entry {
+    display: grid;
+    grid-template-columns: 40px 70px auto;
+    margin-bottom: 40px;
+    gap: 10px;
+}
+
+div.timeline div.content {
+    margin: 0;
+}
+
+div.timeline div.date {
+    font-weight: bold;
+    color: rgb(107, 146, 224);
+    justify-self: center;
+}
+
+div.timeline div.tick {
+    margin-top: 12px;
+    width: 40px;
+    height: 4px;
+    background-color: black;
+}
+
+div.committees-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.committees-list a.committee {
+    display: block;
+    width: 130px;
+    border-radius: 50%;
+}
+
+div.committees-list a.committee h2 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+img.in-text {
+    width: 100px;
+    vertical-align: middle;
+    margin-right: 20px;
 }

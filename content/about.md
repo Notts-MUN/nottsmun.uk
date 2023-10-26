@@ -1,14 +1,13 @@
 ---
 title: "About"
-type: "page"
+type: "special"
+layout: "about"
 ---
 
-# So, what *is* NOTTSMUN?
+# About NOTTSMUN
 
-Welcome to the enigmatic digital domain of NOTTSMUN, an entity that thrives in the subtle interplay of shadows and light, where ambiguity reigns supreme, and the true nature of our operations remains shrouded in mystery. As you embark on this virtual journey, you'll find that NOTTSMUN transcends conventional categorization, eschewing clarity and transparency in favor of a mystique that is, perhaps, unparalleled.
+The NOTTSMUN conference is ran by the United Nations Society from the University of Nottingham. In the 2010s the conference would be attended by more than 200 participants every year. However, NOTTSMUN, just like many other conferences and events, was cancelled due to the COVID 19 pandemic and it remained inactive in the years 2020-2022. It was not until March 2023, that a group of brave MUN-loving students, with not much conference-organizing experience brought NOTTSMUN back. 
 
-![](https://placekitten.com/g/1920/1080)
+Our now annual conference takes place in Nottingham Park University in March. 
 
-In the clandestine corridors of NOTTSMUN, we've mastered the art of paradox, where the complex becomes convoluted, and the obscure becomes obtuse. Our vision is veiled in vagueness, and our mission is to confound, all while adhering to a modus operandi that remains tantalizingly concealed. Within these digital walls, you'll encounter a web of paradoxes, where enigmas beget enigmas, and answers merely lead to more questions.
-
-NOTTSMUN exists as a riddle, wrapped in an enigma, cloaked in an enigma, yet within this bewildering façade lies a world of impenetrable intricacy that may captivate your curiosity. We invite you to explore the enigma that is NOTTSMUN, where the unknown beckons, and understanding remains ever elusive. As you delve deeper into the labyrinth of our online presence, you may find that the only certainty is the uncertainty that shrouds NOTTSMUN in an aura of unyielding ambiguity.
+Our aim is to be a small conference that brings together students from all across the UK and that offers opportunities for both new and experienced delegates. We want run relatively small committees, that allow the chairs to give detailed, personalized feedback to each and every delegate. NOTTSMUN focuses on collaboration and finding solutions through dialog and to that aim we wish to create inclusive and welcoming spaces where everyone can be heard.

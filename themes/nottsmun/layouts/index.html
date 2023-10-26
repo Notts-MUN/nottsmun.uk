@@ -1,25 +1,42 @@
 {{ define "main" }}
 <div class="background">
-    <img src="/img/nottsmun_white.png" class="logo">
     <h1>NOTTSMUN 2024</h1>
     <h2>building bridges</h2>
 </div>
 <article>
-    <h2>NOTTSMUNtroduction</h2>
     <p>
-        Welcome to the official NOTTSMUN online portal, where NOTTSMUN takes center stage in all things NOTTSMUN-related. NOTTSMUN is not just a name; it's a commitment to excellence, a commitment to delivering the NOTTSMUN quality you expect. Established with the sole purpose of enhancing your NOTTSMUN experience, NOTTSMUN has become synonymous with NOTTSMUNnovation, NOTTSMUNity, and NOTTSMUNliability.
+        We are beyond excited to welcome you back to Nottingham for the second edition of NOTTSMUN!  We have listened to your feedback from last year and implemented it into every stage of planning for <b>NOTTSMUN 2024</b>. This year we aim to go bigger and exceed your expectations at every level!
     </p>
 
     <p>
-        At NOTTSMUN, we proudly adhere to a NOTTSMUN-centric approach. Our mission is NOTTSMUN to NOTTSMUN consistently exceed your NOTTSMUNspectations. Our dedicated team of NOTTSMUN professionals works tirelessly to provide a comprehensive range of NOTTSMUN solutions, all tailored to your specific NOTTSMUN needs. Our core NOTTSMUN values of NOTTSMUNtegrity, NOTTSMUNcountability, and NOTTSMUNsparency are at the heart of NOTTSMUN we do, day in and day NOTTSMUN.
+        <b>NOTTSMUN  2024</b> will include five committees: <a href="/committees/disec">DISEC</a>, <a href="/committees/sochum">SOCHUM</a>, <a href="/committees/sc">SC</a>, <a href="/committees/cop">COP</a> and <a href="/committees/crisis">Crisis</a>. Just as last year, we will offer free tea and coffee to all the attendees. Prepare yourself for three exciting conference days with two socials and an unforgettable closing ceremony.  
     </p>
 
     <p>
-        Explore this NOTTSMUN homepage to discover the myriad of NOTTSMUN services, NOTTSMUN resources, and NOTTSMUNformation that NOTTSMUN offers. Whether you're interested in our NOTTSMUN services, looking for NOTTSMUN resources, or seeking the latest NOTTSMUN updates on our NOTTSMUN activities, you'll find it all here.
+        The theme for this year is “building bridges”. We want to focus on connections between people, on international cooperation and on the importance of staying connected and maintaining diplomatic dialogue.  
     </p>
 
     <p>
-        Thank you for choosing NOTTSMUN as your trusted source for all things NOTTSMUN-related. We look forward to NOTTSMUN serving you and meeting your NOTTSMUN needs with unmatched NOTTSMUNcellence.
+        The event will take place in <b>University Park Campus</b>, from the <b>15th of March to the 17th of March</b>. Don't wait! Build your metaphorical bridge to us by submitting your application and joining our conference as a chair, crisis director or delegate. 
     </p>
+
+    <p>
+        We are looking forward to seeing you in the glorious city of Robin Hood!
+    </p>
+
+    <h1>Committees</h1>
+    <p>
+        This is a sentence which is placed here to say something about the following images. Unfortunately, that sentence failed to realise its purpose, and as a result the next sentence must suffice. The images below refer, pictorially, to the committees. Fortunately, they are placed atop corresponding titles for those not versed in committee logograms. In actual fact, these sentences, while logical, are purely for the purposes of filling this gap on the page.
+    </p>
+
+    <div class="committees-list">
+        {{ $pages := where .Site.RegularPages "Section" "committees" }}
+        {{ range $pages }}
+            <a class="committee" href="{{ .Permalink }}">
+                <img src="{{ .Params.logo }}">
+                <h2>{{ .Title }}</h2>
+            </a>
+        {{ end }}
+    </div>
 </article>
 {{ end }}

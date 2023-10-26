@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <article class="single">
+        {{ .Content }}
+
+        <h1>Our History</h1>
+        <div class="timeline">
+            {{ range .Site.Data.timeline.timeline }}
+            <div class="entry">
+                <div class="tick"></div>
+                <div class="date">{{ .date }}</div>
+                <div class="text">{{ .text }}</div>
+            </div>
+            {{ end }}
+        </div>
+    </article>
+{{ end }}

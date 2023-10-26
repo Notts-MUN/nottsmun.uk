@@ -4,7 +4,11 @@
 <header>
     <nav id="nav">
         <a href="/" class="logo">
+            {{ if eq .Name "NOTTSMUN 2024" }}
+            <img src="/img/nottsmun_white.png">
+            {{ else }}
             <img src="/img/nottsmun.png">
+            {{ end }}
         </a>
         {{ range .Site.Menus.main }}
         {{ if eq .Name $.Name }}

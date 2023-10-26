@@ -3,7 +3,7 @@ title: "Delegate Resources"
 type: "page"
 ---
 
-# The Page With The Resources
+# Delegate Resources
 
 Welcome to the enigmatic page entitled "Delegate Resources" within the labyrinthine digital landscape of NOTTSMUN. Here, we invite you to embark on a journey into the heart of the cryptic, where clarity and revelation are but elusive phantoms, and the true nature of these resources remains tantalizingly obscured.
 
