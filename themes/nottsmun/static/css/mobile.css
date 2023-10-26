@@ -5,7 +5,7 @@
 
     nav {
         flex-wrap: wrap;
-        width: 70%;
+        width: 90%;
         height: 150px;
         padding-top: 25px;
     }
@@ -17,10 +17,11 @@
 
     div.background {
         margin-bottom: -130px;
+        padding-top: 150px;
     }
 
     div.background h1 {
-        font-size: 9vw;
+        font-size: 7.5vw;
     }
 
     div.background h2 {
