@@ -37,4 +37,16 @@
     div.committees-list a.committee {
         width: 100px;
     }
+
+    form {
+        grid-template-columns: auto;
+    }
+
+    form label, form input, form textarea {
+        grid-column: 1;
+    }
+
+    form label {
+        text-align: left;
+    }
 }
