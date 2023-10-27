@@ -6,9 +6,14 @@
         <div class="timeline">
             {{ range .Site.Data.timeline.timeline }}
             <div class="entry">
-                <div class="tick"></div>
+                <div class="tick {{ .line }}"></div>
                 <div class="date">{{ .date }}</div>
                 <div class="text">{{ .text }}</div>
+                {{ if .image }}
+                <a class="img" href="{{ .image }}">
+                    <img src="{{ .image }}">
+                </a>
+                {{ end }}
             </div>
             {{ end }}
         </div>

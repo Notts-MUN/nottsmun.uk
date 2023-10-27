@@ -262,9 +262,32 @@ div.timeline div.date {
 
 div.timeline div.tick {
     margin-top: 12px;
-    width: 40px;
+    width: 45px;
     height: 4px;
     background-color: black;
+}
+
+div.timeline div.tick.dashed {
+    background-color: transparent;
+    background-image: repeating-linear-gradient(
+    90deg,
+    black,
+    black 5px,
+    transparent 5px,
+    transparent 10px
+  );
+}
+
+div.timeline a.img {
+    display: block;
+    grid-column: 3;
+    max-height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+div.timeline a.img img {
+    transform: translate(0, calc(-50% + 125px));
 }
 
 div.committees-list {
