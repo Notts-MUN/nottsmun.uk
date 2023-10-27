@@ -57,4 +57,13 @@
     article figure img {
         margin: 10px 0;
     }
+
+    div.join-boxes {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    div.join-boxes div.box {
+        width: 100%;
+    }
 }
