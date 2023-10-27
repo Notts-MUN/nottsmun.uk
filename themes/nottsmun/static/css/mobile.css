@@ -53,4 +53,8 @@
     form label {
         text-align: left;
     }
+
+    article figure img {
+        margin: 10px 0;
+    }
 }

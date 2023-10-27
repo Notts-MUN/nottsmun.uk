@@ -1,0 +1,9 @@
+<figure class="image">
+    <div class="wide"></div>
+    <img
+        src="{{ .Destination }}"
+        alt="{{ .Text }}"
+        {{ with .Title }}title="{{ . }}"{{ end }}
+    >
+    <p class="caption">{{ with .Title }}{{ . }}{{ end }}</p>
+</figure>

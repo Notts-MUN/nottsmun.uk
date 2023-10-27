@@ -8,7 +8,7 @@ layout: "about"
 
 The NOTTSMUN conference is ran by the United Nations Society from the University of Nottingham. In the 2010s the conference would be attended by more than 200 participants every year. However, NOTTSMUN, just like many other conferences and events, was cancelled due to the COVID 19 pandemic and it remained inactive in the years 2020-2022. It was not until March 2023, that a group of brave MUN-loving students, with not much conference-organizing experience brought NOTTSMUN back. 
 
-![](/img/duck.jpeg)
+![](/img/important-people-doing-important-stuff.jpeg "NOTTSMUN 2023 Secretariat")
 
 Our now annual conference takes place in Nottingham Park University in March. 
 

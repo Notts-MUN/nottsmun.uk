@@ -144,6 +144,33 @@ article img {
     width: 100%;
 }
 
+article figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 25px 0;
+}
+
+article figure div.wide {
+    z-index: -1;
+    position: absolute;
+    width: 200vw;
+    left: -100vw;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(43, 50, 64);
+}
+
+article figure p.caption {
+    color: rgb(136, 155, 170);
+    margin-bottom: 0px;
+    margin-top: 5px;
+    text-align: right;
+    font-style: italic;
+    font-size: 1rem;
+}
+
 footer {
     font-size: 0.6rem;
     padding: 30px 0;
@@ -174,11 +201,11 @@ div.bios {
 }
 
 div.bio {
-    width: 250px;
+    width: 200px;
 }
 
 div.bio img {
-    width: 250px;
+    width: 200px;
     filter: hue-rotate(90deg);
 }
 
@@ -287,7 +314,7 @@ div.timeline a.img {
 }
 
 div.timeline a.img img {
-    transform: translate(0, calc(-50% + 125px));
+    transform: translate(0, calc(-35% + 125px));
 }
 
 div.committees-list {
