@@ -206,7 +206,6 @@ div.bio {
 
 div.bio img {
     width: 200px;
-    filter: hue-rotate(90deg);
 }
 
 div.bio h2.title {
