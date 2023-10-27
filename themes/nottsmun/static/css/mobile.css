@@ -17,8 +17,9 @@
 
     div.background {
         margin-bottom: -130px;
-        padding-top: 150px;
-        height: 100vh;
+        padding-top: 50px;
+        min-height: 350px;
+        height: calc(100vh - 30px);
         max-height: none;
     }
 
