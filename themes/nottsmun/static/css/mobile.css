@@ -40,6 +40,7 @@
 
     form {
         grid-template-columns: auto;
+        padding: 0;
     }
 
     form label, form input, form textarea {
