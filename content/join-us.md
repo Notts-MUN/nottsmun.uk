@@ -1,8 +1,9 @@
 ---
 title: "Join Us"
-type: "page"
+type: "special"
+layout: "join"
 ---
 
 # Join Us!
 
-You can find the chair applications [here](https://nope-not-yet-they-are-not-released.sorry).
+you can be a stick

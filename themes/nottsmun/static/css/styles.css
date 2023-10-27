@@ -338,3 +338,46 @@ img.in-text {
     vertical-align: middle;
     margin-right: 20px;
 }
+
+div.join-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.join-boxes div.box {
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: rgb(197, 226, 252);
+    height: 300px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.join-boxes div.closed {
+    background-color: rgb(221, 232, 242);
+}
+
+div.join-boxes div.box p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+div.join-boxes div.box a {
+    width: 100%;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(43, 50, 64);
+    color: rgb(241, 246, 255);
+}
+
+div.join-boxes div.box.closed a {
+    text-decoration: none;
+    background-color: rgb(103, 109, 120);
+    color: rgb(178, 185, 197);
+}
