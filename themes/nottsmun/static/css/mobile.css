@@ -18,8 +18,8 @@
     div.background {
         margin-bottom: -130px;
         padding-top: 150px;
-        height: 70vh;
-        min-height: 500px;
+        height: 100vh;
+        max-height: none;
     }
 
     div.background h1 {
