@@ -1,14 +1,24 @@
 {{ define "main" }}
     <article class="single">
+        <h1>{{ .Title }}</h1>
         {{ .Content }}
         <div class="gallery">
-            {{ with .Site.GetPage "section" "gallery" }}
-                {{ range .Resources.ByType "image" }}
-                    <a href="{{ .Permalink }}">
-                        <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
-                    </a>
-                {{ end }}
+            {{ range .Resources.ByType "image" }}
+                <a href="{{ .Permalink }}">
+                    <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+                </a>
             {{ end }}
         </div>
+
+        {{ range .Pages.ByParam "order" }}
+        <div class="gallery">
+            <h2>{{ .Title }}</h2>
+            {{ range .Resources.ByType "image" }}
+            <a href="{{ .Permalink }}">
+                <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+            </a>
+            {{ end }}
+        </div>
+    {{ end }}
     </article>
 {{ end }}

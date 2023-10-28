@@ -1,5 +1,7 @@
 ---
 title: "Gallery"
 type: "special"
-layout: "gallery"
+layout: "gallery-list"
 ---
+
+# Gallery

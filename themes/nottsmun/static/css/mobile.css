@@ -70,4 +70,12 @@
     div.join-boxes div.box {
         width: 100%;
     }
+
+    div.gallery {
+        justify-content: center;
+    }
+
+    div.gallery img {
+        width: 100%;
+    }
 }

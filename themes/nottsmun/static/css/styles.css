@@ -387,12 +387,34 @@ div.join-boxes div.box.closed a {
 }
 
 div.gallery {
+    margin-bottom: 25px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+    gap: 10px;
+    justify-content: space-between;
+    margin-left: auto;
 }
 
 div.gallery img {
-    width: 230px;
+    width: 240px;
+}
+
+div.gallery h2 {
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+div.gallery-list a {
+    background-color: rgb(43, 50, 64);
+    color: rgb(227, 233, 244);
+    width: 100%;
+    display: block;
+    padding: 15px;
+}
+
+div.gallery-list p {
+    margin: 0;
+    font-weight: normal;
+    font-size: 0.8em;
 }

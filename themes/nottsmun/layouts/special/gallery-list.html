@@ -1,0 +1,14 @@
+{{ define "main" }}
+    <article class="single">
+        {{ .Content }}
+        <div class="gallery-list">
+            {{ range .Pages }}
+                <a href="{{ .Permalink }}">
+                    <img src="{{ .Params.splash }}">
+                    {{ .Title }}
+                    {{ .Content }}
+                </a>
+            {{ end }}
+        </div>
+    </article>
+{{ end }}
