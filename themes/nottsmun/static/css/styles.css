@@ -351,14 +351,14 @@ div.join-boxes {
 
 div.join-boxes div.box {
     padding: 15px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border-radius: 10px;
     background-color: rgb(197, 226, 252);
-    height: 300px;
     width: 240px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    row-gap: 20px;
 }
 
 div.join-boxes div.closed {

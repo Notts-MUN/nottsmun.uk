@@ -6,4 +6,4 @@ layout: "join"
 
 # Join Us!
 
-you can be a stick
+Apply here, or send us an application through [mymun](https://mymun.com/conferences/nottsmun-2024).
