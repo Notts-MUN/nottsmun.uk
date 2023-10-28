@@ -385,3 +385,14 @@ div.join-boxes div.box.closed a {
     background-color: rgb(103, 109, 120);
     color: rgb(178, 185, 197);
 }
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+div.gallery img {
+    width: 230px;
+}

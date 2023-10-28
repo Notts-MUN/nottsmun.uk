@@ -1,0 +1,14 @@
+{{ define "main" }}
+    <article class="single">
+        {{ .Content }}
+        <div class="gallery">
+            {{ with .Site.GetPage "section" "gallery" }}
+                {{ range .Resources.ByType "image" }}
+                    <a href="{{ .Permalink }}">
+                        <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+                    </a>
+                {{ end }}
+            {{ end }}
+        </div>
+    </article>
+{{ end }}
