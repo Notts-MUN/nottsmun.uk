@@ -10,9 +10,13 @@
         padding-top: 25px;
     }
 
-    nav a[class=logo] {
+    nav a.logo {
         width: 100%;
         text-align: center;
+    }
+
+    nav a.logo img {
+        padding: 0;
     }
 
     div.background {
