@@ -276,13 +276,13 @@ div.timeline div.entry {
     border-left: 4px solid rgb(43, 50, 64);
     display: grid;
     grid-template-columns: 40px 70px auto;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     gap: 10px;
 }
 
 div.timeline div.entry.dashed {
     background-color: transparent;
-    border-left: 4px dotted rgb(43, 50, 64);
+    border-left: 4px dashed rgb(43, 50, 64);
 }
 
 div.timeline div.content {
@@ -290,27 +290,21 @@ div.timeline div.content {
 }
 
 div.timeline div.date {
+    margin-top: -13px;
     font-weight: bold;
     color: rgb(107, 146, 224);
     justify-self: center;
 }
 
+div.timeline div.text {
+    margin-top: -13px;
+
+}
+
 div.timeline div.tick {
-    margin-top: 12px;
     width: 45px;
     height: 4px;
     background-color: black;
-}
-
-div.timeline div.tick.dashed {
-    background-color: transparent;
-    background-image: repeating-linear-gradient(
-    90deg,
-    black,
-    black 4px,
-    transparent 4px,
-    transparent 8px
-  );
 }
 
 div.timeline a.img {
