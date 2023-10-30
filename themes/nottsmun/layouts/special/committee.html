@@ -1,6 +1,12 @@
 {{ define "main" }}
     <article class="single">
-        <h1><img src="{{ .Params.logo }}" class="in-text"> {{ .Title }}</h1>
+        <h1 class="committee">
+            <img src="{{ .Params.logo }}" class="in-text">
+            {{ .Title }}
+            {{ with .Params.long_title }} ({{ . }}) {{ end }}
+        </h1>
+
+        <h2 class="level">Level: {{ .Params.level }}</h2>
 
         {{ .Content }}
     </article>
