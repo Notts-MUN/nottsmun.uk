@@ -87,4 +87,17 @@
     div.socials img {
         width: 100%;
     }
+
+    div.bios {
+        display: grid;
+        grid-template-columns: 45% 45%;
+    }
+
+    div.bio {
+        width: 100%;
+    }
+
+    div.bio img {
+        width: 100%;
+    }
 }
