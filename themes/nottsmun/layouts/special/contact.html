@@ -1,11 +1,22 @@
 {{ define "main" }}
     <article class="single">
         {{ .Content }}
+                <div class="socials">
+            <a href="https://www.facebook.com/NottinghamModelUnitedNations/">
+                <img src="/img/facebook.png">
+            </a>
+            <a href="https://www.instagram.com/nottsmun/">
+                <img src="/img/instagram.png">
+            </a>
+            <a href="mailto:model-united-nations@uonsu.com">
+                <img src="/img/email.png">
+            </a>
+        </div>
         <form onsubmit="submitContactForm(event)">
             <label for="subject">Subject</label>
             <input type="text" name="subject" id="subject" placeholder="What do you want to talk about?">
 
-            <label for="body">Content</label>
+            <label for="body">Message</label>
             <textarea name="body" id="body"rows="8" placeholder="..."></textarea>
 
             <input type="submit" value="Send">
