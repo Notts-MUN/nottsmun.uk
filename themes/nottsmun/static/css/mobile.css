@@ -78,4 +78,13 @@
     div.gallery img {
         width: 100%;
     }
+
+    div.socials {
+        justify-content: space-between;
+        margin-bottom: 35px;
+    }
+    
+    div.socials img {
+        width: 100%;
+    }
 }
