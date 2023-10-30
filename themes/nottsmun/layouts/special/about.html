@@ -5,7 +5,7 @@
         <h1>Our History</h1>
         <div class="timeline">
             {{ range .Site.Data.timeline.timeline }}
-            <div class="entry">
+            <div class="entry {{ .line }}">
                 <div class="tick {{ .line }}"></div>
                 <div class="date">{{ .date }}</div>
                 <div class="text">{{ .text }}</div>

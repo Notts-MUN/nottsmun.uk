@@ -270,14 +270,19 @@ form input[type=submit]:hover {
 div.timeline {
     margin-top: 20px;
     margin-left: 50px;
-    border-left: 4px solid rgb(43, 50, 64);
 }
 
 div.timeline div.entry {
+    border-left: 4px solid rgb(43, 50, 64);
     display: grid;
     grid-template-columns: 40px 70px auto;
-    margin-bottom: 40px;
+    padding-bottom: 30px;
     gap: 10px;
+}
+
+div.timeline div.entry.dashed {
+    background-color: transparent;
+    border-left: 4px dotted rgb(43, 50, 64);
 }
 
 div.timeline div.content {
@@ -302,9 +307,9 @@ div.timeline div.tick.dashed {
     background-image: repeating-linear-gradient(
     90deg,
     black,
-    black 5px,
-    transparent 5px,
-    transparent 10px
+    black 4px,
+    transparent 4px,
+    transparent 8px
   );
 }
 
