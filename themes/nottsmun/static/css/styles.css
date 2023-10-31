@@ -95,6 +95,8 @@ a {
     text-decoration: none;
     font-weight: bold;
     color: rgb(63, 87, 131);
+    transition-duration: 0.3s;
+    transition-property: color;
 }
 
 nav a {
@@ -110,9 +112,17 @@ html[page="NOTTSMUN 2024"] nav a {
     color: rgb(235, 235, 235);
 }
 
+html[page="NOTTSMUN 2024"] nav a:hover {
+    color: rgb(225, 241, 255);
+}
+
 a:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
+}
+
+a:hover {
+    color: rgb(107, 146, 224);
 }
 
 article, footer > div {
@@ -123,6 +133,11 @@ article, footer > div {
     left: 0;
     right: 0;
     padding: 0 25px;
+}
+
+footer div {
+    padding: 0;
+    margin: 0;
 }
 
 article {
@@ -176,6 +191,8 @@ article figure p.caption {
 }
 
 footer {
+    display: flex;
+    align-items: center;
     font-size: 0.6rem;
     padding: 30px 0;
     margin-top: 30px;
@@ -192,9 +209,8 @@ footer p, footer a {
 }
 
 footer img.logo {
-    float: left;
-    width: 55px;
-    margin-right: 20px;
+    height: 80px;
+    margin: 0 30px;
 }
 
 div.bios {
@@ -426,6 +442,22 @@ div.socials {
 
 div.socials img {
     width: 80px;
+    transition-duration: 0.15s;
+}
+
+div.socials img:hover {
+    filter: saturate(10) opacity(0.4);
+}
+
+footer div.socials {
+    gap: 10px;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+footer div.socials img {
+    width: 40px;
+    filter: saturate(2) opacity(0.3);
 }
 
 h2.level {
