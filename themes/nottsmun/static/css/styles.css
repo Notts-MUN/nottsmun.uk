@@ -227,6 +227,9 @@ div.bio {
 
 div.bio img {
     width: 200px;
+    height: 230px;
+    object-position: top;
+    object-fit: cover;
 }
 
 div.bio h2.title {
