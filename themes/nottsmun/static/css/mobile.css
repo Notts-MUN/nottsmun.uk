@@ -89,8 +89,8 @@
     }
 
     div.bios {
-        display: grid;
-        grid-template-columns: 45% 45%;
+        grid-template-columns: auto;
+        gap: 40px;
     }
 
     div.bio {
@@ -99,6 +99,11 @@
 
     div.bio img {
         width: 100%;
+        height: auto;
+    }
+
+    div.bio p.bio {
+        font-size: 1.3rem;
     }
 
     footer {

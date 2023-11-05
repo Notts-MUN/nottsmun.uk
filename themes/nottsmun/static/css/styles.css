@@ -215,19 +215,20 @@ footer img.logo {
 }
 
 div.bios {
-    display: flex;
+    display: grid;
+    grid-template-columns: 350px 350px;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 div.bio {
-    width: 200px;
+    width: 350px;
 }
 
 div.bio img {
-    width: 200px;
-    height: 230px;
+    width: 350px;
+    height: 340px;
     object-position: top;
     object-fit: cover;
 }
@@ -235,6 +236,17 @@ div.bio img {
 div.bio h2.title {
     font-size: 1.5rem;
     color: rgb(107, 146, 224);
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+div.bio h2.name {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+div.bio p.course {
+    font-style: italic;
     margin-top: 5px;
 }
 
