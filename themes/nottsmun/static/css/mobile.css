@@ -35,6 +35,10 @@
         font-size: 5vw;
     }
 
+    div.background h3 {
+        font-size: 5vw;
+    }
+
     div.committees-list {
         justify-content: center;
         flex-wrap: wrap;
