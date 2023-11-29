@@ -67,8 +67,10 @@
     }
 
     div.join-boxes {
+        display: flex;
         flex-direction: column;
         gap: 20px;
+        padding: 0;
     }
 
     div.join-boxes div.box {

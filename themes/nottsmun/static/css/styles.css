@@ -382,9 +382,11 @@ img.in-text {
 }
 
 div.join-boxes {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    padding: 0 40px;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 div.join-boxes div.box {
@@ -392,7 +394,7 @@ div.join-boxes div.box {
     font-size: 0.9rem;
     border-radius: 10px;
     background-color: rgb(197, 226, 252);
-    width: 240px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -422,6 +424,11 @@ div.join-boxes div.box.closed a {
     text-decoration: none;
     background-color: rgb(103, 109, 120);
     color: rgb(178, 185, 197);
+}
+
+div.join-boxes img {
+    width: 150px;
+    margin: auto;
 }
 
 div.gallery {
