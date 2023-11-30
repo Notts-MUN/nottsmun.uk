@@ -10,6 +10,7 @@ theme = 'nottsmun'
         weight = 1
     
     [[menu.main]]
+        identifier = "about"
         name = "About"
         url = "/about"
         weight = 2
@@ -38,3 +39,9 @@ theme = 'nottsmun'
         name = "Gallery"
         url = "/gallery"
         weight = 7
+    
+    [[menu.main]]
+        name = "What is MUN?"
+        parent = "about"
+        url = "/what-is-mun"
+        weight = 1

@@ -1,13 +1,80 @@
 @media screen and (max-width: 800px) {
-    div.background {
-        transform: translateY(-150px);
+    button.toggle-nav {
+        display: flex;
+        width: 100%;
+        background: none;
+        border: none;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        cursor: pointer;
+        gap: 10px;
+        font-size: 2.5vw;
+    }
+
+    button.toggle-nav.right {
+        justify-content: end;
+    }
+
+    button.toggle-nav img {
+        display: inline-block;
+        height: 70px;
+        padding: 0;
+    }
+
+    nav * {
+        visibility: hidden;
     }
 
     nav {
+        visibility: hidden;
+        display: none;
         flex-wrap: wrap;
-        width: 90%;
-        height: 150px;
-        padding-top: 25px;
+        flex-direction: column;
+        justify-content: start;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        font-size: 6vw;
+        padding-top: 30px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    div.submenu {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav div ul.children {
+        position: relative;
+        font-size: 2.5vw;
+        list-style: "→ ";
+        padding-left: 0;
+        visibility: visible;
+        margin: 0;
+        padding: 5px 15px;
+    }
+
+    nav[class="active"] {
+        display: block;
+    }
+
+    nav[class="active"], nav[class="active"] * {
+        visibility: visible;
+    }
+
+    html nav a:hover, html nav a.current {
+        color: rgb(225, 241, 255);
+    }
+    
+    html nav * {
+        color: rgb(235, 235, 235);
     }
 
     nav a.logo {
@@ -17,13 +84,15 @@
 
     nav a.logo img {
         padding: 0;
+        display: none;
     }
 
     div.background {
-        margin-bottom: -130px;
+        transform: translateY(0px);
+        margin-bottom: 30px;
         padding-top: 50px;
         min-height: 350px;
-        height: calc(100vh - 30px);
+        height: calc(100vh - 150px);
         max-height: none;
     }
 

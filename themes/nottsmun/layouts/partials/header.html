@@ -2,7 +2,15 @@
     <a href="/join-us">Apply for chairing - deadline 01/12/2023</a>
 </div>
 <header>
+    <button class="toggle-nav" onclick="toggleNav()">
+        <img src="/img/nottsmun.png">
+        <h1>NOTTSMUN 2024</h1>
+        <img src="/img/menu.png">
+    </button>
     <nav id="nav">
+        <button class="toggle-nav right" onclick="toggleNav()">
+            <img src="/img/menu.png">
+        </button>
         <a href="/" class="logo">
             {{ if eq .Name "NOTTSMUN 2024" }}
             <img src="/img/nottsmun_white.png">
@@ -11,11 +19,23 @@
             {{ end }}
         </a>
         {{ range .Site.Menus.main }}
-        {{ if eq .Name $.Name }}
-            <a href="{{ .URL }}" class="current">{{ .Name }}</a>
-        {{ else }}
-            <a href="{{ .URL }}">{{ .Name }}</a>
-        {{ end }}
+        <div class="submenu">
+            <a href="{{ .URL }}"
+                {{ if eq .Name $.Name }} class="current" {{ end }}>
+                {{ .Name }}
+            </a>
+
+            {{ if .HasChildren }}
+                <ul class="children">
+                {{ range .Children }}
+                    <li>
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
+                {{ end }}
+                </ul>
+            {{ end }}
+        </div>
+        
         {{ end }}
     </nav>
 </header>
