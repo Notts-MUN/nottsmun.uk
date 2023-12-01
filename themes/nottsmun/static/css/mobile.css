@@ -1,7 +1,10 @@
 @media screen and (max-width: 800px) {
     button.toggle-nav {
         display: flex;
-        width: 100%;
+        width: 100vw;
+        left: 0;
+        top: 30px;
+        position: absolute;
         background: none;
         border: none;
         flex-direction: row;
@@ -43,9 +46,12 @@
         top: 0;
         background-color: rgba(0, 0, 0, 0.7);
         font-size: 6vw;
-        padding-top: 30px;
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
+    }
+
+    nav div.submenu:first-of-type {
+        margin-top: 100px;
     }
 
     div.submenu {
@@ -91,12 +97,16 @@
         display: none;
     }
 
+    div#content {
+        margin-top: 100px;
+    }
+
     div.background {
         transform: translateY(0px);
         margin-bottom: 30px;
         padding-top: 50px;
         min-height: 350px;
-        height: calc(100vh - 150px);
+        height: calc(100vh - 130px);
         max-height: none;
     }
 

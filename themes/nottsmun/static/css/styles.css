@@ -62,6 +62,7 @@ div.background img.logo {
 }
 
 div.banner {
+    height: 30px;
     font-size: 0.75rem;
     color: rgb(235, 235, 235);
     background-color: rgb(43, 50, 64);
