@@ -9,5 +9,35 @@
         <h2 class="level">Level: {{ .Params.level }}</h2>
 
         {{ .Content }}
+
+        <div class="topics">
+            {{ range .Params.topics }}
+                <div class="topic">
+                    <p>{{ . }}</p>
+                </div>
+            {{ end }}
+        </div>
+
+        {{ range .Params.director }}
+        <div class="chair director">
+            <img src="{{ .photo }}">
+            <div>
+                <h3> {{$.Title}} Director: {{ .name }}</h3>
+                <p>{{ .bio }}</p>
+            </div>
+        </div>
+        {{ end }}
+
+        <h2>Meet our chairs</h2>
+
+        {{ range .Params.chairs }}
+        <div class="chair">
+            <img src="{{ .photo }}">
+            <div>
+                <h3>{{ .name }}</h3>
+                <p>{{ .bio }}</p>
+            </div>
+        </div>
+        {{ end }}
     </article>
 {{ end }}
