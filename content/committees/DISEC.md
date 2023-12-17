@@ -10,7 +10,7 @@ chairs:
     - name: "Eloise Hatton"
       photo: "/img/chairs/disec1.jpg"
       bio: "I'm a third year student at the University of York, studying Social & Political Sciences, and I have been a part of UNA York since her first year. I have attended multiple conferences and holds a 100% best delegate rate. I have been President at UNA York for the last year and have been chairing weekly sessions as well as York’s Mega Mini MUN (York Internal MUN). After my success in DISEC at NottsMUN last year, I'm delighted to be chairing the committee in 2024 and I'm looking forward to supporting delegates."
-    - name: "Loma Gelic"
+    - name: "Lorna Gelic"
       photo: "/img/chairs/disec2.jpg"
       bio: "I’m a Dutch third-year law student at Tilburg University in the Netherlands. Next to my studies I’m part of the United Netherlands delegation, where my love for MUN’ing grew even further.
 
