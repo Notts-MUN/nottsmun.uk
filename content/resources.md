@@ -5,4 +5,4 @@ type: "page"
 
 # Delegate Resources
 
-Coming soon!
+Download the rules of procedure [here](/doc/rules-of-procedure.pdf).
