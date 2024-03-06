@@ -17,3 +17,4 @@ chairs:
 
 SOCHUM is concerned with questions relating to humanitarian and social affairs and human rights. It is one of the six main UN committees. 
 
+ - [Get the study guide](/doc/NOTTSMUN_2024_SOCHUM_study_guide.pdf)

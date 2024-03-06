@@ -23,3 +23,5 @@ The shot that was heard around the world. On the outskirts of Boston, militias h
 The future of the so-called “United States of America” hangs in the balance. The British invasion looms as volunteers and revolutionaries prepare to fight tooth and nail for their self-determination. In Philadelphia, scholars and thinkers light the spark of the nation that will one day burn bright as the beacon of liberty.
 
 Will you manage to repel the British forces, forge alliances across the globe and create a spot for America on the world stage? Or will your fledgling republic collapse into the sea just as soon as it arose? The fate of the Americas lies in your hands.
+
+ - [Get the study guide](/doc/NottsMUN_2024_Crisis_Study_Guide.pdf)

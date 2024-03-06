@@ -15,4 +15,6 @@ chairs:
       bio: "Hi! My name is Benny Nguyen, and I am an exchange student studying Politics & International Relations at the University of Nottingham. Coming from Vietnam, I have been engaging with the Vietnamese MUN community for 4 years now, and I am super excited to bring my knowledge and expertise about MUN from Vietnam to the UK, and see what the community here has to offer. As the president of COP, I am thrilled to bring you some of the topics that are very close to my passions - sustainability and climate change. I sincerely hope that you will have an amazing time learning and creating memories at Nottingham!"
 ---
 
-The UNFFCC works to mitigate climate change and reduce the human impact on the environment. The first COP was held in Berlin in 1995 and since then the conferences have been held annually.  
+The UNFFCC works to mitigate climate change and reduce the human impact on the environment. The first COP was held in Berlin in 1995 and since then the conferences have been held annually. 
+
+ - [Get the study guide](/doc/COP_study_guide.pdf)

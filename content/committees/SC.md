@@ -20,3 +20,5 @@ MUN is a society that allows for dialouge and debate and that is what makes it s
 ---
 
 The United Nations Security Council of the six main UN organs. Its task is to ensure international peace through prevention and protection. 
+
+ - [Get the study guide](/doc/Security_Council_study_guide.pdf)

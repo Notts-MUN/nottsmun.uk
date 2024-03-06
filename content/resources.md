@@ -5,4 +5,8 @@ type: "page"
 
 # Delegate Resources
 
-Download the rules of procedure [here](/doc/rules-of-procedure.pdf).
+Find PDFs of the various delegate resources below:
+
+- [Rules of Procedure](/doc/rules-of-procedure.pdf)
+- [Delegate Guide](/doc/Delegate_guide.pdf)
+- [Misconduct Policy](/doc/Misconduct_policy.pdf)
