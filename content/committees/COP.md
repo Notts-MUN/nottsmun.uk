@@ -17,4 +17,3 @@ chairs:
 
 The UNFFCC works to mitigate climate change and reduce the human impact on the environment. The first COP was held in Berlin in 1995 and since then the conferences have been held annually. 
 
- - [Get the study guide](/doc/COP_study_guide.pdf)
