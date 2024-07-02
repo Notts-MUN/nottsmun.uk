@@ -21,5 +21,3 @@ I’m extremely excited to join all of you for NOTTSMUN 2024!"
 ---
 
 DISEC is concerned with both regional and global disarmament and security matters. It is one of the six main committees of the UN.
-
- - [Get the study guide](/doc/DISEC_study_guide.pdf)
