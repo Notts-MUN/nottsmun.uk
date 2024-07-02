@@ -24,4 +24,4 @@ The future of the so-called “United States of America” hangs in the balance.
 
 Will you manage to repel the British forces, forge alliances across the globe and create a spot for America on the world stage? Or will your fledgling republic collapse into the sea just as soon as it arose? The fate of the Americas lies in your hands.
 
- - [Get the study guide](/doc/NottsMUN_2024_Crisis_Study_Guide.pdf)
+ 
